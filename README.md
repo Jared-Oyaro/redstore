@@ -1,1 +1,1 @@
-# redstore
+# E-Commerce Practice Project
