@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Slabo+27px&display=swap');
 * {
 	margin: 0;
 	padding: 0;
@@ -8,7 +10,9 @@
 	text-align: center;
 	padding: 20px;
 }
-
+.logo h1 {
+	font-family: "Slabo" sans-serif;
+}
 nav {
 	flex: 1;
 	text-align: right;
@@ -64,7 +68,8 @@ p {
 	transition: background 0.5s;
 }
 .header {
-	background: radial-gradient(#fff, #ffd6d6);
+	/* background: radial-gradient(#fff, #fcb800); */
+	background-color: #fcb800;
 }
 
 .header .row{
@@ -142,7 +147,7 @@ h4 {
 	transform: translateY(-5px);
 }
 .offer {
-	background: radial-gradient(#fff, #ffd6d6);
+	background: #fcb800;
 	margin-top: 80px;
 	padding: 30px 0;
 }
@@ -238,6 +243,7 @@ ul {
 	.menu-icon {
 		display: block;
 		cursor: pointer;
+		height: 15px;
 	}
 }
 
@@ -248,4 +254,18 @@ ul {
 	.col-2, .col-3, .col-4 {
 		flex-basis: 100%;
 	}
+	.menu-icon {
+		height: 15px;
+	}
 }
+
+.number {
+	background-color: inherit;
+	font-weight: bold;
+	font-size: 25px;
+	margin-top: 10px;
+	font-family: "Anton", sans-serif;
+	color: red;
+}
+
+ 
